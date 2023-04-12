@@ -1,0 +1,116 @@
+start
+read inputs length,bredth
+find the area of the rectangle by the formula area->length*breadth
+print area
+stop
+
+start 
+read the marks of 3 subjects subject1_marks,subject2_marks,subject3_marks
+find the percentage of marks by using the formula percentag<-(subject1_marks+subject2_marks+subject3_marks)/3
+
+
+algo gross salary of emp given basic salary,da,hra
+
+gross sal (bs+da)
+
+da 50%bs
+hra 20%bs
+
+write an algorithm to find the gross salary of an employee given the basic salary, DA and HRA
+
+ 
+
+     gross salary= (basic salary+DA+HRA)
+
+ 
+
+     DA---50% of the basic salary
+
+ 
+
+     HRA---20% of the basic salary
+
+start
+read the basic salary basic_salary
+find the hra of basic salary hra<-(basic_salary)*20/100
+find the da of basic salary da<-(basic_salary)*50/100
+find the gross salary gross_salary<-(basic salary+DA+HRA)
+print gross_salary
+end
+
+
+write an algorithm to swap the values of two quantities
+
+ 
+
+    number1      number2
+      10             20
+
+ 
+
+after swapping:
+
+ 
+
+   number1     number2
+    20           10
+
+start
+read inputs number1,number2
+assigning the number1 in temp temp<-number1
+assigning the number2 in number1 number1<-number2
+assigning the temp value to number2 number2<-temp
+print the swapped values number1 n number2
+stop
+
+
+write an algorithm to calculate the component Interest
+
+start
+read inputs anual interest rate,years,principal_amount
+finding compound interest pi=principal_amount*((1+anual_intrerest_rate/100)^years
+print the compound intrest pi
+stop
+
+
+
+start
+read age
+if(age>18)
+print "eligible to vote"
+else
+print "not eligible to vote"
+stop
+
+
+
+write an algorithm to find whether a student is eligible to take admission in a college
+         (if percentage is greater than 85 then he is eligible to take admission)
+start
+read the percentage
+if(percentage>85)
+print "eligible for addmission"
+else
+print "not eligible for addmission
+stop
+
+
+bigest of two numbers
+start
+read the numbers number1,number2
+if(number1>number2)
+print "numbeer 1 is greater"
+else
+print "number 2 is greater"
+stop
+
+biggest of 3 numbers
+start
+read the number number1,number2,number3
+if(number1>number2 && number1>number2)
+print "number1 is greater"
+else if(number2>number1 && number2>number3)
+print "number2 is greater"
+else
+print "number3 is greater
+stop
