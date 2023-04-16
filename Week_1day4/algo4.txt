@@ -1,0 +1,83 @@
+To find if given number is palindrome or not
+
+1. start
+2. read the number n
+3. initialise rev_number=0
+4. repeadly execute the steps 5-7
+until(n!=0)
+5. digit=number%10
+6. rev_number=rev_number*10+digit
+7. n=n/10
+8. if(n==rev_number)
+     print Palindrome
+   else
+     print not palindrome
+9. stop
+
+armstrong
+
+1. start
+2. read the number n
+3. initialise remainder=0, sum=0, temp=n
+4. repeatdely execute the steps 5-8
+   until(n!=0)
+5. remainder=n%10
+6. result=remainder*remainder*remainder
+7  sum=sum+result
+8. n=n/10
+9. if(sum=temp)
+     print armstrong
+   else
+     print not armstrong
+10. stop
+
+
+n terms of fibo series
+
+1. start
+2. read the numbers n
+3. initialize n1=0, n2=1, i=2
+4. if(n==1)
+     print n1
+   if(n==2)
+     print n1 and n2
+ repeat the steps i-iiv
+   print n1 and n2
+   until(i<=n)
+  i) nextterm=n1+n2
+  ii)print nextterm
+  iii) n1=n2
+  iv) n2=nextterm
+  iiv) i=i+1 
+5. stop
+
+
+the sum of any n num
+
+1. start
+2. read the numbers n
+3. initialize count=1,sum=0
+4. repeadtedly execute the steps
+   until(count<=n)
+   i)read number
+   ii)sum=sum+number
+   iii)count=count+1
+5. print sum
+6. stop
+
+to check if the given +integer is strong or not
+
+1. start
+2. read number n
+3. initialize count=1,temp=n
+4. execute the steps i-iv
+   until (n!=0)
+  i) digit=n%10
+  ii) sum=sum+digit!
+  iii) n=n/10
+  iv) if(sum==temp)
+        print strong
+      else
+	print not strong
+5.stop 
+
